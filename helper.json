@@ -1,0 +1,2405 @@
+{
+    "namespace": "wc\/store",
+    "routes": {
+        "\/wc\/store": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "GET"
+                ],
+                "args": {
+                    "namespace": {
+                        "default": "wc\/store",
+                        "required": false
+                    },
+                    "context": {
+                        "default": "view",
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store"
+                }]
+            }
+        },
+        "\/wc\/store\/cart": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "GET"
+                ],
+                "args": {
+                    "context": {
+                        "description": "Scope under which the request is made; determines fields present in response.",
+                        "type": "string",
+                        "enum": [
+                            "view",
+                            "edit"
+                        ],
+                        "default": "view",
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/cart"
+                }]
+            }
+        },
+        "\/wc\/store\/cart\/add-item": {
+            "namespace": "wc\/store",
+            "methods": [
+                "POST"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "POST"
+                ],
+                "args": {
+                    "id": {
+                        "description": "The cart item product or variation ID.",
+                        "type": "integer",
+                        "required": false
+                    },
+                    "quantity": {
+                        "description": "Quantity of this item in the cart.",
+                        "type": "integer",
+                        "required": false
+                    },
+                    "variation": {
+                        "description": "Chosen attributes (for variations).",
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "attribute": {
+                                    "description": "Variation attribute name.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ]
+                                },
+                                "value": {
+                                    "description": "Variation attribute value.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ]
+                                }
+                            }
+                        },
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/cart\/add-item"
+                }]
+            }
+        },
+        "\/wc\/store\/cart\/apply-coupon": {
+            "namespace": "wc\/store",
+            "methods": [
+                "POST"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "POST"
+                ],
+                "args": {
+                    "code": {
+                        "description": "Unique identifier for the coupon within the cart.",
+                        "type": "string",
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/cart\/apply-coupon"
+                }]
+            }
+        },
+        "\/wc\/store\/cart\/coupons": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET",
+                "POST",
+                "DELETE"
+            ],
+            "endpoints": [{
+                    "methods": [
+                        "GET"
+                    ],
+                    "args": {
+                        "context": {
+                            "description": "Scope under which the request is made; determines fields present in response.",
+                            "type": "string",
+                            "enum": [
+                                "view",
+                                "edit"
+                            ],
+                            "default": "view",
+                            "required": false
+                        }
+                    }
+                },
+                {
+                    "methods": [
+                        "POST"
+                    ],
+                    "args": {
+                        "code": {
+                            "description": "The coupon's unique code.",
+                            "type": "string",
+                            "required": false
+                        },
+                        "discount_type": {
+                            "description": "The discount type for the coupon (e.g. percentage or fixed amount)",
+                            "type": "string",
+                            "required": false
+                        }
+                    }
+                },
+                {
+                    "methods": [
+                        "DELETE"
+                    ],
+                    "args": []
+                }
+            ],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/cart\/coupons"
+                }]
+            }
+        },
+        "\/wc\/store\/cart\/coupons\/(?P<code>[\\w-]+)": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET",
+                "DELETE"
+            ],
+            "endpoints": [{
+                    "methods": [
+                        "GET"
+                    ],
+                    "args": {
+                        "code": {
+                            "description": "Unique identifier for the coupon within the cart.",
+                            "type": "string",
+                            "required": false
+                        },
+                        "context": {
+                            "description": "Scope under which the request is made; determines fields present in response.",
+                            "type": "string",
+                            "enum": [
+                                "view",
+                                "edit"
+                            ],
+                            "default": "view",
+                            "required": false
+                        }
+                    }
+                },
+                {
+                    "methods": [
+                        "DELETE"
+                    ],
+                    "args": {
+                        "code": {
+                            "description": "Unique identifier for the coupon within the cart.",
+                            "type": "string",
+                            "required": false
+                        }
+                    }
+                }
+            ]
+        },
+        "\/wc\/store\/cart\/extensions": {
+            "namespace": "wc\/store",
+            "methods": [
+                "POST"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "POST"
+                ],
+                "args": {
+                    "namespace": {
+                        "description": "Extension's name - this will be used to ensure the data in the request is routed appropriately.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "data": {
+                        "description": "Additional data to pass to the extension",
+                        "type": "object",
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/cart\/extensions"
+                }]
+            }
+        },
+        "\/wc\/store\/cart\/items": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET",
+                "POST",
+                "DELETE"
+            ],
+            "endpoints": [{
+                    "methods": [
+                        "GET"
+                    ],
+                    "args": {
+                        "context": {
+                            "description": "Scope under which the request is made; determines fields present in response.",
+                            "type": "string",
+                            "enum": [
+                                "view",
+                                "edit"
+                            ],
+                            "default": "view",
+                            "required": false
+                        }
+                    }
+                },
+                {
+                    "methods": [
+                        "POST"
+                    ],
+                    "args": []
+                },
+                {
+                    "methods": [
+                        "DELETE"
+                    ],
+                    "args": []
+                }
+            ],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/cart\/items"
+                }]
+            }
+        },
+        "\/wc\/store\/cart\/items\/(?P<key>[\\w-]{32})": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+            ],
+            "endpoints": [{
+                    "methods": [
+                        "GET"
+                    ],
+                    "args": {
+                        "key": {
+                            "description": "Unique identifier for the item within the cart.",
+                            "type": "string",
+                            "required": false
+                        },
+                        "context": {
+                            "description": "Scope under which the request is made; determines fields present in response.",
+                            "type": "string",
+                            "enum": [
+                                "view",
+                                "edit"
+                            ],
+                            "default": "view",
+                            "required": false
+                        }
+                    }
+                },
+                {
+                    "methods": [
+                        "POST",
+                        "PUT",
+                        "PATCH"
+                    ],
+                    "args": {
+                        "key": {
+                            "description": "Unique identifier for the item within the cart.",
+                            "type": "string",
+                            "required": false
+                        }
+                    }
+                },
+                {
+                    "methods": [
+                        "DELETE"
+                    ],
+                    "args": {
+                        "key": {
+                            "description": "Unique identifier for the item within the cart.",
+                            "type": "string",
+                            "required": false
+                        }
+                    }
+                }
+            ]
+        },
+        "\/wc\/store\/cart\/remove-coupon": {
+            "namespace": "wc\/store",
+            "methods": [
+                "POST"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "POST"
+                ],
+                "args": {
+                    "code": {
+                        "description": "Unique identifier for the coupon within the cart.",
+                        "type": "string",
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/cart\/remove-coupon"
+                }]
+            }
+        },
+        "\/wc\/store\/cart\/remove-item": {
+            "namespace": "wc\/store",
+            "methods": [
+                "POST"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "POST"
+                ],
+                "args": {
+                    "key": {
+                        "description": "Unique identifier (key) for the cart item.",
+                        "type": "string",
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/cart\/remove-item"
+                }]
+            }
+        },
+        "\/wc\/store\/cart\/select-shipping-rate": {
+            "namespace": "wc\/store",
+            "methods": [
+                "POST"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "POST"
+                ],
+                "args": {
+                    "package_id": {
+                        "description": "The ID of the package being shipped.",
+                        "type": [
+                            "integer",
+                            "string"
+                        ],
+                        "required": true
+                    },
+                    "rate_id": {
+                        "description": "The chosen rate ID for the package.",
+                        "type": "string",
+                        "required": true
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/cart\/select-shipping-rate"
+                }]
+            }
+        },
+        "\/wc\/store\/cart\/update-item": {
+            "namespace": "wc\/store",
+            "methods": [
+                "POST"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "POST"
+                ],
+                "args": {
+                    "key": {
+                        "description": "Unique identifier (key) for the cart item to update.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "quantity": {
+                        "description": "New quantity of the item in the cart.",
+                        "type": "integer",
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/cart\/update-item"
+                }]
+            }
+        },
+        "\/wc\/store\/cart\/update-customer": {
+            "namespace": "wc\/store",
+            "methods": [
+                "POST"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "POST"
+                ],
+                "args": {
+                    "billing_address": {
+                        "description": "Billing address.",
+                        "type": "object",
+                        "properties": {
+                            "first_name": {
+                                "description": "First name",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "last_name": {
+                                "description": "Last name",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "company": {
+                                "description": "Company",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "address_1": {
+                                "description": "Address",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "address_2": {
+                                "description": "Apartment, suite, etc.",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "city": {
+                                "description": "City",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "state": {
+                                "description": "State\/County code, or name of the state, county, province, or district.",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "postcode": {
+                                "description": "Postal code",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "country": {
+                                "description": "Country\/Region code in ISO 3166-1 alpha-2 format.",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "phone": {
+                                "description": "Phone",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "email": {
+                                "description": "Email",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            }
+                        },
+                        "required": false
+                    },
+                    "shipping_address": {
+                        "description": "Shipping address.",
+                        "type": "object",
+                        "properties": {
+                            "first_name": {
+                                "description": "First name",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "last_name": {
+                                "description": "Last name",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "company": {
+                                "description": "Company",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "address_1": {
+                                "description": "Address",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "address_2": {
+                                "description": "Apartment, suite, etc.",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "city": {
+                                "description": "City",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "state": {
+                                "description": "State\/County code, or name of the state, county, province, or district.",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "postcode": {
+                                "description": "Postal code",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "country": {
+                                "description": "Country\/Region code in ISO 3166-1 alpha-2 format.",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            },
+                            "phone": {
+                                "description": "Phone",
+                                "type": "string",
+                                "context": [
+                                    "view",
+                                    "edit"
+                                ],
+                                "required": true
+                            }
+                        },
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/cart\/update-customer"
+                }]
+            }
+        },
+        "\/wc\/store\/checkout": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET",
+                "POST",
+                "POST",
+                "PUT",
+                "PATCH"
+            ],
+            "endpoints": [{
+                    "methods": [
+                        "GET"
+                    ],
+                    "args": {
+                        "context": {
+                            "description": "Scope under which the request is made; determines fields present in response.",
+                            "type": "string",
+                            "enum": [
+                                "view",
+                                "edit"
+                            ],
+                            "default": "view",
+                            "required": false
+                        }
+                    }
+                },
+                {
+                    "methods": [
+                        "POST"
+                    ],
+                    "args": {
+                        "payment_data": {
+                            "description": "Data to pass through to the payment method when processing payment.",
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "key": {
+                                        "type": "string"
+                                    },
+                                    "value": {
+                                        "type": [
+                                            "string",
+                                            "boolean"
+                                        ]
+                                    }
+                                }
+                            },
+                            "required": false
+                        },
+                        "customer_note": {
+                            "description": "Note added to the order by the customer during checkout.",
+                            "type": "string",
+                            "required": false
+                        },
+                        "billing_address": {
+                            "description": "Billing address.",
+                            "type": "object",
+                            "properties": {
+                                "first_name": {
+                                    "description": "First name",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "last_name": {
+                                    "description": "Last name",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "company": {
+                                    "description": "Company",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "address_1": {
+                                    "description": "Address",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "address_2": {
+                                    "description": "Apartment, suite, etc.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "city": {
+                                    "description": "City",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "state": {
+                                    "description": "State\/County code, or name of the state, county, province, or district.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "postcode": {
+                                    "description": "Postal code",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "country": {
+                                    "description": "Country\/Region code in ISO 3166-1 alpha-2 format.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "phone": {
+                                    "description": "Phone",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "email": {
+                                    "description": "Email",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                }
+                            },
+                            "required": true
+                        },
+                        "shipping_address": {
+                            "description": "Shipping address.",
+                            "type": "object",
+                            "properties": {
+                                "first_name": {
+                                    "description": "First name",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "last_name": {
+                                    "description": "Last name",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "company": {
+                                    "description": "Company",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "address_1": {
+                                    "description": "Address",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "address_2": {
+                                    "description": "Apartment, suite, etc.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "city": {
+                                    "description": "City",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "state": {
+                                    "description": "State\/County code, or name of the state, county, province, or district.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "postcode": {
+                                    "description": "Postal code",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "country": {
+                                    "description": "Country\/Region code in ISO 3166-1 alpha-2 format.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "phone": {
+                                    "description": "Phone",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                }
+                            },
+                            "required": true
+                        },
+                        "payment_method": {
+                            "description": "The ID of the payment method being used to process the payment.",
+                            "type": "string",
+                            "enum": [
+                                "bacs",
+                                "cheque",
+                                "cod",
+                                "paypal"
+                            ],
+                            "required": false
+                        },
+                        "create_account": {
+                            "description": "Whether to create a new user account as part of order processing.",
+                            "type": "boolean",
+                            "required": false
+                        }
+                    }
+                },
+                {
+                    "methods": [
+                        "POST",
+                        "PUT",
+                        "PATCH"
+                    ],
+                    "args": {
+                        "customer_note": {
+                            "description": "Note added to the order by the customer during checkout.",
+                            "type": "string",
+                            "required": false
+                        },
+                        "billing_address": {
+                            "description": "Billing address.",
+                            "type": "object",
+                            "properties": {
+                                "first_name": {
+                                    "description": "First name",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "last_name": {
+                                    "description": "Last name",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "company": {
+                                    "description": "Company",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "address_1": {
+                                    "description": "Address",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "address_2": {
+                                    "description": "Apartment, suite, etc.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "city": {
+                                    "description": "City",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "state": {
+                                    "description": "State\/County code, or name of the state, county, province, or district.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "postcode": {
+                                    "description": "Postal code",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "country": {
+                                    "description": "Country\/Region code in ISO 3166-1 alpha-2 format.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "phone": {
+                                    "description": "Phone",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "email": {
+                                    "description": "Email",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                }
+                            },
+                            "required": false
+                        },
+                        "shipping_address": {
+                            "description": "Shipping address.",
+                            "type": "object",
+                            "properties": {
+                                "first_name": {
+                                    "description": "First name",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "last_name": {
+                                    "description": "Last name",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "company": {
+                                    "description": "Company",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "address_1": {
+                                    "description": "Address",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "address_2": {
+                                    "description": "Apartment, suite, etc.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "city": {
+                                    "description": "City",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "state": {
+                                    "description": "State\/County code, or name of the state, county, province, or district.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "postcode": {
+                                    "description": "Postal code",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "country": {
+                                    "description": "Country\/Region code in ISO 3166-1 alpha-2 format.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                },
+                                "phone": {
+                                    "description": "Phone",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "required": true
+                                }
+                            },
+                            "required": false
+                        },
+                        "payment_method": {
+                            "description": "The ID of the payment method being used to process the payment.",
+                            "type": "string",
+                            "enum": [
+                                "bacs",
+                                "cheque",
+                                "cod",
+                                "paypal"
+                            ],
+                            "required": false
+                        },
+                        "create_account": {
+                            "description": "Whether to create a new user account as part of order processing.",
+                            "type": "boolean",
+                            "required": false
+                        }
+                    }
+                }
+            ],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/checkout"
+                }]
+            }
+        },
+        "\/wc\/store\/products\/attributes": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "GET"
+                ],
+                "args": {
+                    "context": {
+                        "description": "Scope under which the request is made; determines fields present in response.",
+                        "type": "string",
+                        "enum": [
+                            "view",
+                            "edit"
+                        ],
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/products\/attributes"
+                }]
+            }
+        },
+        "\/wc\/store\/products\/attributes\/(?P<id>[\\d]+)": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "GET"
+                ],
+                "args": {
+                    "id": {
+                        "description": "Unique identifier for the resource.",
+                        "type": "integer",
+                        "required": false
+                    },
+                    "context": {
+                        "description": "Scope under which the request is made; determines fields present in response.",
+                        "type": "string",
+                        "enum": [
+                            "view",
+                            "edit"
+                        ],
+                        "default": "view",
+                        "required": false
+                    }
+                }
+            }]
+        },
+        "\/wc\/store\/products\/attributes\/(?P<attribute_id>[\\d]+)\/terms": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "GET"
+                ],
+                "args": {
+                    "attribute_id": {
+                        "description": "Unique identifier for the attribute.",
+                        "type": "integer",
+                        "required": false
+                    },
+                    "context": {
+                        "description": "Scope under which the request is made; determines fields present in response.",
+                        "type": "string",
+                        "enum": [
+                            "view",
+                            "edit"
+                        ],
+                        "default": "view",
+                        "required": false
+                    },
+                    "page": {
+                        "description": "Current page of the collection.",
+                        "type": "integer",
+                        "default": 1,
+                        "minimum": 1,
+                        "required": false
+                    },
+                    "per_page": {
+                        "description": "Maximum number of items to be returned in result set. Defaults to no limit if left blank.",
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100,
+                        "required": false
+                    },
+                    "search": {
+                        "description": "Limit results to those matching a string.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "exclude": {
+                        "description": "Ensure result set excludes specific IDs.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "include": {
+                        "description": "Limit result set to specific ids.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "order": {
+                        "description": "Sort ascending or descending.",
+                        "type": "string",
+                        "default": "asc",
+                        "enum": [
+                            "asc",
+                            "desc"
+                        ],
+                        "required": false
+                    },
+                    "orderby": {
+                        "description": "Sort by term property.",
+                        "type": "string",
+                        "default": "name",
+                        "enum": [
+                            "name",
+                            "slug",
+                            "count"
+                        ],
+                        "required": false
+                    },
+                    "hide_empty": {
+                        "description": "If true, empty terms will not be returned.",
+                        "type": "boolean",
+                        "default": true,
+                        "required": false
+                    }
+                }
+            }]
+        },
+        "\/wc\/store\/products\/categories": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "GET"
+                ],
+                "args": {
+                    "context": {
+                        "description": "Scope under which the request is made; determines fields present in response.",
+                        "type": "string",
+                        "enum": [
+                            "view",
+                            "embed",
+                            "edit"
+                        ],
+                        "default": "view",
+                        "required": false
+                    },
+                    "page": {
+                        "description": "Current page of the collection.",
+                        "type": "integer",
+                        "default": 1,
+                        "minimum": 1,
+                        "required": false
+                    },
+                    "per_page": {
+                        "description": "Maximum number of items to be returned in result set. Defaults to no limit if left blank.",
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100,
+                        "required": false
+                    },
+                    "search": {
+                        "description": "Limit results to those matching a string.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "exclude": {
+                        "description": "Ensure result set excludes specific IDs.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "include": {
+                        "description": "Limit result set to specific ids.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "order": {
+                        "description": "Sort ascending or descending.",
+                        "type": "string",
+                        "default": "asc",
+                        "enum": [
+                            "asc",
+                            "desc"
+                        ],
+                        "required": false
+                    },
+                    "orderby": {
+                        "description": "Sort by term property.",
+                        "type": "string",
+                        "default": "name",
+                        "enum": [
+                            "name",
+                            "slug",
+                            "count"
+                        ],
+                        "required": false
+                    },
+                    "hide_empty": {
+                        "description": "If true, empty terms will not be returned.",
+                        "type": "boolean",
+                        "default": true,
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/products\/categories"
+                }]
+            }
+        },
+        "\/wc\/store\/products\/categories\/(?P<id>[\\d]+)": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "GET"
+                ],
+                "args": {
+                    "id": {
+                        "description": "Unique identifier for the resource.",
+                        "type": "integer",
+                        "required": false
+                    },
+                    "context": {
+                        "description": "Scope under which the request is made; determines fields present in response.",
+                        "type": "string",
+                        "enum": [
+                            "view",
+                            "embed",
+                            "edit"
+                        ],
+                        "default": "view",
+                        "required": false
+                    }
+                }
+            }]
+        },
+        "\/wc\/store\/products\/collection-data": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "GET"
+                ],
+                "args": {
+                    "context": {
+                        "description": "Scope under which the request is made; determines fields present in response.",
+                        "type": "string",
+                        "enum": [
+                            "view",
+                            "edit"
+                        ],
+                        "default": "view",
+                        "required": false
+                    },
+                    "page": {
+                        "description": "Current page of the collection.",
+                        "type": "integer",
+                        "default": 1,
+                        "minimum": 1,
+                        "required": false
+                    },
+                    "per_page": {
+                        "description": "Maximum number of items to be returned in result set. Defaults to no limit if left blank.",
+                        "type": "integer",
+                        "default": 10,
+                        "minimum": 0,
+                        "maximum": 100,
+                        "required": false
+                    },
+                    "search": {
+                        "description": "Limit results to those matching a string.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "after": {
+                        "description": "Limit response to resources created after a given ISO8601 compliant date.",
+                        "type": "string",
+                        "format": "date-time",
+                        "required": false
+                    },
+                    "before": {
+                        "description": "Limit response to resources created before a given ISO8601 compliant date.",
+                        "type": "string",
+                        "format": "date-time",
+                        "required": false
+                    },
+                    "date_column": {
+                        "description": "When limiting response using after\/before, which date column to compare against.",
+                        "type": "string",
+                        "default": "date",
+                        "enum": [
+                            "date",
+                            "date_gmt",
+                            "modified",
+                            "modified_gmt"
+                        ],
+                        "required": false
+                    },
+                    "exclude": {
+                        "description": "Ensure result set excludes specific IDs.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "include": {
+                        "description": "Limit result set to specific ids.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "offset": {
+                        "description": "Offset the result set by a specific number of items.",
+                        "type": "integer",
+                        "required": false
+                    },
+                    "order": {
+                        "description": "Order sort attribute ascending or descending.",
+                        "type": "string",
+                        "default": "desc",
+                        "enum": [
+                            "asc",
+                            "desc"
+                        ],
+                        "required": false
+                    },
+                    "orderby": {
+                        "description": "Sort collection by object attribute.",
+                        "type": "string",
+                        "default": "date",
+                        "enum": [
+                            "date",
+                            "modified",
+                            "id",
+                            "include",
+                            "title",
+                            "slug",
+                            "price",
+                            "popularity",
+                            "rating",
+                            "menu_order",
+                            "comment_count"
+                        ],
+                        "required": false
+                    },
+                    "parent": {
+                        "description": "Limit result set to those of particular parent IDs.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "parent_exclude": {
+                        "description": "Limit result set to all items except those of a particular parent ID.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "type": {
+                        "description": "Limit result set to Wallcoverings assigned a specific type.",
+                        "type": "string",
+                        "enum": [
+                            "simple",
+                            "grouped",
+                            "external",
+                            "variable",
+                            "variation"
+                        ],
+                        "required": false
+                    },
+                    "sku": {
+                        "description": "Limit result set to Wallcoverings with specific SKU(s). Use commas to separate.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "featured": {
+                        "description": "Limit result set to featured Wallcoverings.",
+                        "type": "boolean",
+                        "required": false
+                    },
+                    "category": {
+                        "description": "Limit result set to Wallcoverings assigned a specific category ID.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "category_operator": {
+                        "description": "Operator to compare product category terms.",
+                        "type": "string",
+                        "enum": [
+                            "in",
+                            "not in",
+                            "and"
+                        ],
+                        "default": "in",
+                        "required": false
+                    },
+                    "tag": {
+                        "description": "Limit result set to Wallcoverings assigned a specific tag ID.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "tag_operator": {
+                        "description": "Operator to compare product tags.",
+                        "type": "string",
+                        "enum": [
+                            "in",
+                            "not in",
+                            "and"
+                        ],
+                        "default": "in",
+                        "required": false
+                    },
+                    "on_sale": {
+                        "description": "Limit result set to Wallcoverings on sale.",
+                        "type": "boolean",
+                        "required": false
+                    },
+                    "min_price": {
+                        "description": "Limit result set to Wallcoverings based on a minimum price, provided using the smallest unit of the currency.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "max_price": {
+                        "description": "Limit result set to Wallcoverings based on a maximum price, provided using the smallest unit of the currency.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "stock_status": {
+                        "description": "Limit result set to Wallcoverings with specified stock status.",
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "instock",
+                                "outofstock",
+                                "onbackorder"
+                            ],
+                            "sanitize_callback": "sanitize_text_field",
+                            "validate_callback": "rest_validate_request_arg"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "attributes": {
+                        "description": "Limit result set to Wallcoverings with selected global attributes.",
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "attribute": {
+                                    "description": "Attribute taxonomy name.",
+                                    "type": "string",
+                                    "sanitize_callback": "wc_sanitize_taxonomy_name"
+                                },
+                                "term_id": {
+                                    "description": "List of attribute term IDs.",
+                                    "type": "array",
+                                    "items": {
+                                        "type": "integer"
+                                    },
+                                    "sanitize_callback": "wp_parse_id_list"
+                                },
+                                "slug": {
+                                    "description": "List of attribute slug(s). If a term ID is provided, this will be ignored.",
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "sanitize_callback": "wp_parse_slug_list"
+                                },
+                                "operator": {
+                                    "description": "Operator to compare product attribute terms.",
+                                    "type": "string",
+                                    "enum": [
+                                        "in",
+                                        "not in",
+                                        "and"
+                                    ]
+                                }
+                            }
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "attribute_relation": {
+                        "description": "The logical relationship between attributes when filtering across multiple at once.",
+                        "type": "string",
+                        "enum": [
+                            "in",
+                            "and"
+                        ],
+                        "default": "and",
+                        "required": false
+                    },
+                    "catalog_visibility": {
+                        "description": "Determines if hidden or visible catalog Wallcoverings are shown.",
+                        "type": "string",
+                        "enum": [
+                            "any",
+                            "visible",
+                            "catalog",
+                            "search",
+                            "hidden"
+                        ],
+                        "required": false
+                    },
+                    "rating": {
+                        "description": "Limit result set to Wallcoverings with a certain average rating.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer",
+                            "enum": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ]
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "calculate_price_range": {
+                        "description": "If true, calculates the minimum and maximum product prices for the collection.",
+                        "type": "boolean",
+                        "default": false,
+                        "required": false
+                    },
+                    "calculate_attribute_counts": {
+                        "description": "If requested, calculates attribute term counts for Wallcoverings in the collection.",
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "taxonomy": {
+                                    "description": "Taxonomy name.",
+                                    "type": "string",
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "readonly": true
+                                },
+                                "query_type": {
+                                    "description": "Query type being performed which may affect counts. Valid values include \"and\" and \"or\".",
+                                    "type": "string",
+                                    "enum": [
+                                        "and",
+                                        "or"
+                                    ],
+                                    "context": [
+                                        "view",
+                                        "edit"
+                                    ],
+                                    "readonly": true
+                                }
+                            }
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "calculate_rating_counts": {
+                        "description": "If true, calculates rating counts for Wallcoverings in the collection.",
+                        "type": "boolean",
+                        "default": false,
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/products\/collection-data"
+                }]
+            }
+        },
+        "\/wc\/store\/products\/reviews": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "GET"
+                ],
+                "args": {
+                    "context": {
+                        "description": "Scope under which the request is made; determines fields present in response.",
+                        "type": "string",
+                        "enum": [
+                            "view",
+                            "edit"
+                        ],
+                        "default": "view",
+                        "required": false
+                    },
+                    "page": {
+                        "description": "Current page of the collection.",
+                        "type": "integer",
+                        "default": 1,
+                        "minimum": 1,
+                        "required": false
+                    },
+                    "per_page": {
+                        "description": "Maximum number of items to be returned in result set. Defaults to no limit if left blank.",
+                        "type": "integer",
+                        "default": 10,
+                        "minimum": 0,
+                        "maximum": 100,
+                        "required": false
+                    },
+                    "offset": {
+                        "description": "Offset the result set by a specific number of items.",
+                        "type": "integer",
+                        "required": false
+                    },
+                    "order": {
+                        "description": "Order sort attribute ascending or descending.",
+                        "type": "string",
+                        "default": "desc",
+                        "enum": [
+                            "asc",
+                            "desc"
+                        ],
+                        "required": false
+                    },
+                    "orderby": {
+                        "description": "Sort collection by object attribute.",
+                        "type": "string",
+                        "default": "date",
+                        "enum": [
+                            "date",
+                            "date_gmt",
+                            "id",
+                            "rating",
+                            "product"
+                        ],
+                        "required": false
+                    },
+                    "category_id": {
+                        "description": "Limit result set to reviews from specific category IDs.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "product_id": {
+                        "description": "Limit result set to reviews from specific product IDs.",
+                        "type": "string",
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/products\/reviews"
+                }]
+            }
+        },
+        "\/wc\/store\/products\/tags": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "GET"
+                ],
+                "args": {
+                    "context": {
+                        "description": "Scope under which the request is made; determines fields present in response.",
+                        "type": "string",
+                        "enum": [
+                            "view",
+                            "edit"
+                        ],
+                        "default": "view",
+                        "required": false
+                    },
+                    "page": {
+                        "description": "Current page of the collection.",
+                        "type": "integer",
+                        "default": 1,
+                        "minimum": 1,
+                        "required": false
+                    },
+                    "per_page": {
+                        "description": "Maximum number of items to be returned in result set. Defaults to no limit if left blank.",
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100,
+                        "required": false
+                    },
+                    "search": {
+                        "description": "Limit results to those matching a string.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "exclude": {
+                        "description": "Ensure result set excludes specific IDs.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "include": {
+                        "description": "Limit result set to specific ids.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "order": {
+                        "description": "Sort ascending or descending.",
+                        "type": "string",
+                        "default": "asc",
+                        "enum": [
+                            "asc",
+                            "desc"
+                        ],
+                        "required": false
+                    },
+                    "orderby": {
+                        "description": "Sort by term property.",
+                        "type": "string",
+                        "default": "name",
+                        "enum": [
+                            "name",
+                            "slug",
+                            "count"
+                        ],
+                        "required": false
+                    },
+                    "hide_empty": {
+                        "description": "If true, empty terms will not be returned.",
+                        "type": "boolean",
+                        "default": true,
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/products\/tags"
+                }]
+            }
+        },
+        "\/wc\/store\/products": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "GET"
+                ],
+                "args": {
+                    "context": {
+                        "description": "Scope under which the request is made; determines fields present in response.",
+                        "type": "string",
+                        "enum": [
+                            "view",
+                            "edit"
+                        ],
+                        "default": "view",
+                        "required": false
+                    },
+                    "page": {
+                        "description": "Current page of the collection.",
+                        "type": "integer",
+                        "default": 1,
+                        "minimum": 1,
+                        "required": false
+                    },
+                    "per_page": {
+                        "description": "Maximum number of items to be returned in result set. Defaults to no limit if left blank.",
+                        "type": "integer",
+                        "default": 10,
+                        "minimum": 0,
+                        "maximum": 100,
+                        "required": false
+                    },
+                    "search": {
+                        "description": "Limit results to those matching a string.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "after": {
+                        "description": "Limit response to resources created after a given ISO8601 compliant date.",
+                        "type": "string",
+                        "format": "date-time",
+                        "required": false
+                    },
+                    "before": {
+                        "description": "Limit response to resources created before a given ISO8601 compliant date.",
+                        "type": "string",
+                        "format": "date-time",
+                        "required": false
+                    },
+                    "date_column": {
+                        "description": "When limiting response using after\/before, which date column to compare against.",
+                        "type": "string",
+                        "default": "date",
+                        "enum": [
+                            "date",
+                            "date_gmt",
+                            "modified",
+                            "modified_gmt"
+                        ],
+                        "required": false
+                    },
+                    "exclude": {
+                        "description": "Ensure result set excludes specific IDs.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "include": {
+                        "description": "Limit result set to specific ids.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "offset": {
+                        "description": "Offset the result set by a specific number of items.",
+                        "type": "integer",
+                        "required": false
+                    },
+                    "order": {
+                        "description": "Order sort attribute ascending or descending.",
+                        "type": "string",
+                        "default": "desc",
+                        "enum": [
+                            "asc",
+                            "desc"
+                        ],
+                        "required": false
+                    },
+                    "orderby": {
+                        "description": "Sort collection by object attribute.",
+                        "type": "string",
+                        "default": "date",
+                        "enum": [
+                            "date",
+                            "modified",
+                            "id",
+                            "include",
+                            "title",
+                            "slug",
+                            "price",
+                            "popularity",
+                            "rating",
+                            "menu_order",
+                            "comment_count"
+                        ],
+                        "required": false
+                    },
+                    "parent": {
+                        "description": "Limit result set to those of particular parent IDs.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "parent_exclude": {
+                        "description": "Limit result set to all items except those of a particular parent ID.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "type": {
+                        "description": "Limit result set to Wallcoverings assigned a specific type.",
+                        "type": "string",
+                        "enum": [
+                            "simple",
+                            "grouped",
+                            "external",
+                            "variable",
+                            "variation"
+                        ],
+                        "required": false
+                    },
+                    "sku": {
+                        "description": "Limit result set to Wallcoverings with specific SKU(s). Use commas to separate.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "featured": {
+                        "description": "Limit result set to featured Wallcoverings.",
+                        "type": "boolean",
+                        "required": false
+                    },
+                    "category": {
+                        "description": "Limit result set to Wallcoverings assigned a specific category ID.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "category_operator": {
+                        "description": "Operator to compare product category terms.",
+                        "type": "string",
+                        "enum": [
+                            "in",
+                            "not in",
+                            "and"
+                        ],
+                        "default": "in",
+                        "required": false
+                    },
+                    "tag": {
+                        "description": "Limit result set to Wallcoverings assigned a specific tag ID.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "tag_operator": {
+                        "description": "Operator to compare product tags.",
+                        "type": "string",
+                        "enum": [
+                            "in",
+                            "not in",
+                            "and"
+                        ],
+                        "default": "in",
+                        "required": false
+                    },
+                    "on_sale": {
+                        "description": "Limit result set to Wallcoverings on sale.",
+                        "type": "boolean",
+                        "required": false
+                    },
+                    "min_price": {
+                        "description": "Limit result set to Wallcoverings based on a minimum price, provided using the smallest unit of the currency.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "max_price": {
+                        "description": "Limit result set to Wallcoverings based on a maximum price, provided using the smallest unit of the currency.",
+                        "type": "string",
+                        "required": false
+                    },
+                    "stock_status": {
+                        "description": "Limit result set to Wallcoverings with specified stock status.",
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "instock",
+                                "outofstock",
+                                "onbackorder"
+                            ],
+                            "sanitize_callback": "sanitize_text_field",
+                            "validate_callback": "rest_validate_request_arg"
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "attributes": {
+                        "description": "Limit result set to Wallcoverings with selected global attributes.",
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "attribute": {
+                                    "description": "Attribute taxonomy name.",
+                                    "type": "string",
+                                    "sanitize_callback": "wc_sanitize_taxonomy_name"
+                                },
+                                "term_id": {
+                                    "description": "List of attribute term IDs.",
+                                    "type": "array",
+                                    "items": {
+                                        "type": "integer"
+                                    },
+                                    "sanitize_callback": "wp_parse_id_list"
+                                },
+                                "slug": {
+                                    "description": "List of attribute slug(s). If a term ID is provided, this will be ignored.",
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "sanitize_callback": "wp_parse_slug_list"
+                                },
+                                "operator": {
+                                    "description": "Operator to compare product attribute terms.",
+                                    "type": "string",
+                                    "enum": [
+                                        "in",
+                                        "not in",
+                                        "and"
+                                    ]
+                                }
+                            }
+                        },
+                        "default": [],
+                        "required": false
+                    },
+                    "attribute_relation": {
+                        "description": "The logical relationship between attributes when filtering across multiple at once.",
+                        "type": "string",
+                        "enum": [
+                            "in",
+                            "and"
+                        ],
+                        "default": "and",
+                        "required": false
+                    },
+                    "catalog_visibility": {
+                        "description": "Determines if hidden or visible catalog Wallcoverings are shown.",
+                        "type": "string",
+                        "enum": [
+                            "any",
+                            "visible",
+                            "catalog",
+                            "search",
+                            "hidden"
+                        ],
+                        "required": false
+                    },
+                    "rating": {
+                        "description": "Limit result set to Wallcoverings with a certain average rating.",
+                        "type": "array",
+                        "items": {
+                            "type": "integer",
+                            "enum": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ]
+                        },
+                        "default": [],
+                        "required": false
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/products"
+                }]
+            }
+        },
+        "\/wc\/store\/products\/(?P<id>[\\d]+)": {
+            "namespace": "wc\/store",
+            "methods": [
+                "GET"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "GET"
+                ],
+                "args": {
+                    "id": {
+                        "description": "Unique identifier for the resource.",
+                        "type": "integer",
+                        "required": false
+                    },
+                    "context": {
+                        "description": "Scope under which the request is made; determines fields present in response.",
+                        "type": "string",
+                        "enum": [
+                            "view",
+                            "edit"
+                        ],
+                        "default": "view",
+                        "required": false
+                    }
+                }
+            }]
+        },
+        "\/wc\/store\/batch": {
+            "namespace": "wc\/store",
+            "methods": [
+                "POST"
+            ],
+            "endpoints": [{
+                "methods": [
+                    "POST"
+                ],
+                "args": {
+                    "validation": {
+                        "type": "string",
+                        "enum": [
+                            "require-all-validate",
+                            "normal"
+                        ],
+                        "default": "normal",
+                        "required": false
+                    },
+                    "requests": {
+                        "type": "array",
+                        "maxItems": 25,
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "method": {
+                                    "type": "string",
+                                    "enum": [
+                                        "POST",
+                                        "PUT",
+                                        "PATCH",
+                                        "DELETE"
+                                    ],
+                                    "default": "POST"
+                                },
+                                "path": {
+                                    "type": "string",
+                                    "required": true
+                                },
+                                "body": {
+                                    "type": "object",
+                                    "properties": [],
+                                    "additionalProperties": true
+                                },
+                                "headers": {
+                                    "type": "object",
+                                    "properties": [],
+                                    "additionalProperties": {
+                                        "type": [
+                                            "string",
+                                            "array"
+                                        ],
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "required": true
+                    }
+                }
+            }],
+            "_links": {
+                "self": [{
+                    "href": "https:\/\/colouranddesign.com\/wp-json\/wc\/store\/batch"
+                }]
+            }
+        }
+    },
+    "_links": {
+        "up": [{
+            "href": "https:\/\/colouranddesign.com\/wp-json\/"
+        }]
+    }
+}

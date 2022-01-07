@@ -1,0 +1,196 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "required": [
+        "image_urls",
+        "images",
+        "job_id",
+        "job_time",
+        "main_image",
+        "name",
+        "sku",
+        "spider",
+        "timestamp",
+        "url"
+    ],
+    "type": "object",
+    "properties": {
+        "brand": {
+            "type": "string"
+        },
+        "breadcrumbs": {
+            "type": "array",
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "colour": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "file_urls": {
+            "type": "array",
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "files": {
+            "type": "array",
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "object",
+                        "required": [
+                            "url",
+                            "path",
+                            "checksum",
+                            "status"
+                        ],
+                        "properties": {
+                            "url": {
+                                "type": "string"
+                            },
+                            "path": {
+                                "type": "string"
+                            },
+                            "checksum": {
+                                "type": "string"
+                            },
+                            "status": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "image_urls": {
+            "type": "array",
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "images": {
+            "type": "array",
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "object",
+                        "required": [
+                            "url",
+                            "path",
+                            "checksum",
+                            "status"
+                        ],
+                        "properties": {
+                            "url": {
+                                "type": "string"
+                            },
+                            "path": {
+                                "type": "string"
+                            },
+                            "checksum": {
+                                "type": "string"
+                            },
+                            "status": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "job_id": {
+            "type": "string"
+        },
+        "job_time": {
+            "type": "string"
+        },
+        "main_image": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "product_variants": {
+            "type": "array",
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "object",
+                        "properties": {
+                            "display_name": {
+                                "type": "string"
+                            },
+                            "image": {
+                                "type": "string"
+                            },
+                            "sku": {
+                                "type": "string"
+                            },
+                            "url": {
+                                "type": "string"
+                            },
+                            "type": {
+                                "enum": [
+                                    "colour",
+                                    "finish",
+                                    "pattern",
+                                    "size"
+                                ],
+                                "type": "string"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "sku": {
+            "type": "string"
+        },
+        "specifications": {
+            "type": "array",
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "object",
+                        "required": [
+                            "name",
+                            "value"
+                        ],
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "spider": {
+            "type": "string"
+        },
+        "timestamp": {
+            "type": "string"
+        },
+        "url": {
+            "type": "string"
+        }
+    }
+}

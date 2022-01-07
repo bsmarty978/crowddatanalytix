@@ -1,0 +1,987 @@
+[{
+        "id": 18209,
+        "name": "Brocha\u2122",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https:\/\/colouranddesign.com\/wallcovering\/colour\/charcoalblack\/brocha-cd2-bro-16",
+        "sku": "CD2-BRO-16",
+        "short_description": "",
+        "description": "",
+        "on_sale": false,
+        "prices": {
+            "price": "0",
+            "regular_price": "0",
+            "sale_price": "0",
+            "price_range": null,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;<\/span>0.00<\/span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [{
+                "id": 18188,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_16b.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_16b-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_16b.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_16b-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_16b-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_16b-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_16b-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_16b",
+                "alt": ""
+            },
+            {
+                "id": 18171,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_16.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_16-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_16.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_16-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_16-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_16-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_16-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_16",
+                "alt": ""
+            }
+        ],
+        "categories": [{
+                "id": 993,
+                "name": "Brocha\u2122",
+                "slug": "brocha-painterly-finish",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/painterly-finish\/brocha-painterly-finish"
+            },
+            {
+                "id": 251,
+                "name": "Charcoal\/Black",
+                "slug": "charcoalblack",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/colour\/charcoalblack"
+            },
+            {
+                "id": 989,
+                "name": "Brocha\u2122",
+                "slug": "brocha",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/block-patchwork\/brocha"
+            },
+            {
+                "id": 991,
+                "name": "Brocha\u2122",
+                "slug": "brocha-contemporary",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/contemporary\/brocha-contemporary"
+            },
+            {
+                "id": 992,
+                "name": "Brocha\u2122",
+                "slug": "brocha-horizontal",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/horizontal\/brocha-horizontal"
+            }
+        ],
+        "tags": [{
+            "id": 988,
+            "name": "Brocha",
+            "slug": "brocha",
+            "link": "https:\/\/colouranddesign.com\/product-tag\/brocha"
+        }],
+        "attributes": [],
+        "variations": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "quantity_limit": 99,
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add &ldquo;Brocha\u2122&rdquo; to your cart",
+            "url": "?add-to-cart=18209"
+        }
+    },
+    {
+        "id": 18208,
+        "name": "Brocha\u2122",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https:\/\/colouranddesign.com\/wallcovering\/colour\/brown\/brocha-cd2-bro-15",
+        "sku": "CD2-BRO-15",
+        "short_description": "",
+        "description": "",
+        "on_sale": false,
+        "prices": {
+            "price": "0",
+            "regular_price": "0",
+            "sale_price": "0",
+            "price_range": null,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;<\/span>0.00<\/span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [{
+                "id": 18187,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_15b.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_15b-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_15b.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_15b-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_15b-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_15b-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_15b-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_15b",
+                "alt": ""
+            },
+            {
+                "id": 18170,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_15.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_15-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_15.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_15-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_15-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_15-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_15-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_15",
+                "alt": ""
+            }
+        ],
+        "categories": [{
+                "id": 993,
+                "name": "Brocha\u2122",
+                "slug": "brocha-painterly-finish",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/painterly-finish\/brocha-painterly-finish"
+            },
+            {
+                "id": 250,
+                "name": "Brown",
+                "slug": "brown",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/colour\/brown"
+            },
+            {
+                "id": 989,
+                "name": "Brocha\u2122",
+                "slug": "brocha",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/block-patchwork\/brocha"
+            },
+            {
+                "id": 991,
+                "name": "Brocha\u2122",
+                "slug": "brocha-contemporary",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/contemporary\/brocha-contemporary"
+            },
+            {
+                "id": 992,
+                "name": "Brocha\u2122",
+                "slug": "brocha-horizontal",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/horizontal\/brocha-horizontal"
+            }
+        ],
+        "tags": [{
+            "id": 988,
+            "name": "Brocha",
+            "slug": "brocha",
+            "link": "https:\/\/colouranddesign.com\/product-tag\/brocha"
+        }],
+        "attributes": [],
+        "variations": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "quantity_limit": 99,
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add &ldquo;Brocha\u2122&rdquo; to your cart",
+            "url": "?add-to-cart=18208"
+        }
+    },
+    {
+        "id": 18207,
+        "name": "Brocha\u2122",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https:\/\/colouranddesign.com\/wallcovering\/colour\/copper\/brocha-cd2-bro-14",
+        "sku": "CD2-BRO-14",
+        "short_description": "",
+        "description": "",
+        "on_sale": false,
+        "prices": {
+            "price": "0",
+            "regular_price": "0",
+            "sale_price": "0",
+            "price_range": null,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;<\/span>0.00<\/span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [{
+                "id": 18186,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_14b.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_14b-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_14b.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_14b-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_14b-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_14b-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_14b-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_14b",
+                "alt": ""
+            },
+            {
+                "id": 18169,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_14.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_14-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_14.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_14-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_14-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_14-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_14-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_14",
+                "alt": ""
+            }
+        ],
+        "categories": [{
+                "id": 993,
+                "name": "Brocha\u2122",
+                "slug": "brocha-painterly-finish",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/painterly-finish\/brocha-painterly-finish"
+            },
+            {
+                "id": 252,
+                "name": "Copper",
+                "slug": "copper",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/colour\/copper"
+            },
+            {
+                "id": 256,
+                "name": "Orange",
+                "slug": "orange",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/colour\/orange"
+            },
+            {
+                "id": 989,
+                "name": "Brocha\u2122",
+                "slug": "brocha",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/block-patchwork\/brocha"
+            },
+            {
+                "id": 991,
+                "name": "Brocha\u2122",
+                "slug": "brocha-contemporary",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/contemporary\/brocha-contemporary"
+            },
+            {
+                "id": 992,
+                "name": "Brocha\u2122",
+                "slug": "brocha-horizontal",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/horizontal\/brocha-horizontal"
+            }
+        ],
+        "tags": [{
+            "id": 988,
+            "name": "Brocha",
+            "slug": "brocha",
+            "link": "https:\/\/colouranddesign.com\/product-tag\/brocha"
+        }],
+        "attributes": [],
+        "variations": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "quantity_limit": 99,
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add &ldquo;Brocha\u2122&rdquo; to your cart",
+            "url": "?add-to-cart=18207"
+        }
+    },
+    {
+        "id": 18206,
+        "name": "Brocha\u2122",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https:\/\/colouranddesign.com\/wallcovering\/colour\/taupe\/brocha-cd2-bro-13",
+        "sku": "CD2-BRO-13",
+        "short_description": "",
+        "description": "",
+        "on_sale": false,
+        "prices": {
+            "price": "0",
+            "regular_price": "0",
+            "sale_price": "0",
+            "price_range": null,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;<\/span>0.00<\/span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [{
+                "id": 18185,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_13b.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_13b-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_13b.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_13b-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_13b-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_13b-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_13b-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_13b",
+                "alt": ""
+            },
+            {
+                "id": 18168,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_13.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_13-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_13.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_13-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_13-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_13-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_13-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_13",
+                "alt": ""
+            }
+        ],
+        "categories": [{
+                "id": 993,
+                "name": "Brocha\u2122",
+                "slug": "brocha-painterly-finish",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/painterly-finish\/brocha-painterly-finish"
+            },
+            {
+                "id": 259,
+                "name": "Taupe",
+                "slug": "taupe",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/colour\/taupe"
+            },
+            {
+                "id": 989,
+                "name": "Brocha\u2122",
+                "slug": "brocha",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/block-patchwork\/brocha"
+            },
+            {
+                "id": 991,
+                "name": "Brocha\u2122",
+                "slug": "brocha-contemporary",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/contemporary\/brocha-contemporary"
+            },
+            {
+                "id": 992,
+                "name": "Brocha\u2122",
+                "slug": "brocha-horizontal",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/horizontal\/brocha-horizontal"
+            }
+        ],
+        "tags": [{
+            "id": 988,
+            "name": "Brocha",
+            "slug": "brocha",
+            "link": "https:\/\/colouranddesign.com\/product-tag\/brocha"
+        }],
+        "attributes": [],
+        "variations": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "quantity_limit": 99,
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add &ldquo;Brocha\u2122&rdquo; to your cart",
+            "url": "?add-to-cart=18206"
+        }
+    },
+    {
+        "id": 18205,
+        "name": "Brocha\u2122",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https:\/\/colouranddesign.com\/wallcovering\/colour\/beige\/brocha-cd2-bro-12",
+        "sku": "CD2-BRO-12",
+        "short_description": "",
+        "description": "",
+        "on_sale": false,
+        "prices": {
+            "price": "0",
+            "regular_price": "0",
+            "sale_price": "0",
+            "price_range": null,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;<\/span>0.00<\/span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [{
+                "id": 18184,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_12b.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_12b-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_12b.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_12b-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_12b-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_12b-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_12b-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_12b",
+                "alt": ""
+            },
+            {
+                "id": 18167,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_12.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_12-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_12.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_12-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_12-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_12-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_12-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_12",
+                "alt": ""
+            }
+        ],
+        "categories": [{
+                "id": 993,
+                "name": "Brocha\u2122",
+                "slug": "brocha-painterly-finish",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/painterly-finish\/brocha-painterly-finish"
+            },
+            {
+                "id": 248,
+                "name": "Beige",
+                "slug": "beige",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/colour\/beige"
+            },
+            {
+                "id": 989,
+                "name": "Brocha\u2122",
+                "slug": "brocha",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/block-patchwork\/brocha"
+            },
+            {
+                "id": 991,
+                "name": "Brocha\u2122",
+                "slug": "brocha-contemporary",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/contemporary\/brocha-contemporary"
+            },
+            {
+                "id": 992,
+                "name": "Brocha\u2122",
+                "slug": "brocha-horizontal",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/horizontal\/brocha-horizontal"
+            }
+        ],
+        "tags": [{
+            "id": 988,
+            "name": "Brocha",
+            "slug": "brocha",
+            "link": "https:\/\/colouranddesign.com\/product-tag\/brocha"
+        }],
+        "attributes": [],
+        "variations": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "quantity_limit": 99,
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add &ldquo;Brocha\u2122&rdquo; to your cart",
+            "url": "?add-to-cart=18205"
+        }
+    },
+    {
+        "id": 18204,
+        "name": "Brocha\u2122",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https:\/\/colouranddesign.com\/wallcovering\/colour\/white\/brocha-cd2-bro-11",
+        "sku": "CD2-BRO-11",
+        "short_description": "",
+        "description": "",
+        "on_sale": false,
+        "prices": {
+            "price": "0",
+            "regular_price": "0",
+            "sale_price": "0",
+            "price_range": null,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;<\/span>0.00<\/span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [{
+                "id": 18183,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_11b.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_11b-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_11b.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_11b-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_11b-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_11b-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_11b-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_11b",
+                "alt": ""
+            },
+            {
+                "id": 18166,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_11.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_11-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_11.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_11-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_11-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_11-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_11-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_11",
+                "alt": ""
+            }
+        ],
+        "categories": [{
+                "id": 993,
+                "name": "Brocha\u2122",
+                "slug": "brocha-painterly-finish",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/painterly-finish\/brocha-painterly-finish"
+            },
+            {
+                "id": 260,
+                "name": "White",
+                "slug": "white",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/colour\/white"
+            },
+            {
+                "id": 989,
+                "name": "Brocha\u2122",
+                "slug": "brocha",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/block-patchwork\/brocha"
+            },
+            {
+                "id": 991,
+                "name": "Brocha\u2122",
+                "slug": "brocha-contemporary",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/contemporary\/brocha-contemporary"
+            },
+            {
+                "id": 992,
+                "name": "Brocha\u2122",
+                "slug": "brocha-horizontal",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/horizontal\/brocha-horizontal"
+            }
+        ],
+        "tags": [{
+            "id": 988,
+            "name": "Brocha",
+            "slug": "brocha",
+            "link": "https:\/\/colouranddesign.com\/product-tag\/brocha"
+        }],
+        "attributes": [],
+        "variations": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "quantity_limit": 99,
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add &ldquo;Brocha\u2122&rdquo; to your cart",
+            "url": "?add-to-cart=18204"
+        }
+    },
+    {
+        "id": 18203,
+        "name": "Brocha\u2122",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https:\/\/colouranddesign.com\/wallcovering\/colour\/white\/brocha-cd2-bro-10",
+        "sku": "CD2-BRO-10",
+        "short_description": "",
+        "description": "",
+        "on_sale": false,
+        "prices": {
+            "price": "0",
+            "regular_price": "0",
+            "sale_price": "0",
+            "price_range": null,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;<\/span>0.00<\/span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [{
+                "id": 18182,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_10b.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_10b-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_10b.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_10b-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_10b-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_10b-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_10b-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_10b",
+                "alt": ""
+            },
+            {
+                "id": 18165,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_10.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_10-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_10.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_10-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_10-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_10-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_10-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_10",
+                "alt": ""
+            }
+        ],
+        "categories": [{
+                "id": 993,
+                "name": "Brocha\u2122",
+                "slug": "brocha-painterly-finish",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/painterly-finish\/brocha-painterly-finish"
+            },
+            {
+                "id": 260,
+                "name": "White",
+                "slug": "white",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/colour\/white"
+            },
+            {
+                "id": 989,
+                "name": "Brocha\u2122",
+                "slug": "brocha",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/block-patchwork\/brocha"
+            },
+            {
+                "id": 991,
+                "name": "Brocha\u2122",
+                "slug": "brocha-contemporary",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/contemporary\/brocha-contemporary"
+            },
+            {
+                "id": 992,
+                "name": "Brocha\u2122",
+                "slug": "brocha-horizontal",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/horizontal\/brocha-horizontal"
+            }
+        ],
+        "tags": [{
+            "id": 988,
+            "name": "Brocha",
+            "slug": "brocha",
+            "link": "https:\/\/colouranddesign.com\/product-tag\/brocha"
+        }],
+        "attributes": [],
+        "variations": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "quantity_limit": 99,
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add &ldquo;Brocha\u2122&rdquo; to your cart",
+            "url": "?add-to-cart=18203"
+        }
+    },
+    {
+        "id": 18202,
+        "name": "Brocha\u2122",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https:\/\/colouranddesign.com\/wallcovering\/colour\/charcoalblack\/brocha-cd2-bro-09",
+        "sku": "CD2-BRO-09",
+        "short_description": "",
+        "description": "",
+        "on_sale": false,
+        "prices": {
+            "price": "0",
+            "regular_price": "0",
+            "sale_price": "0",
+            "price_range": null,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;<\/span>0.00<\/span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [{
+                "id": 18181,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_09b.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_09b-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_09b.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_09b-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_09b-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_09b-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_09b-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_09b",
+                "alt": ""
+            },
+            {
+                "id": 18164,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_09.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_09-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_09.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_09-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_09-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_09-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_09-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_09",
+                "alt": ""
+            }
+        ],
+        "categories": [{
+                "id": 993,
+                "name": "Brocha\u2122",
+                "slug": "brocha-painterly-finish",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/painterly-finish\/brocha-painterly-finish"
+            },
+            {
+                "id": 251,
+                "name": "Charcoal\/Black",
+                "slug": "charcoalblack",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/colour\/charcoalblack"
+            },
+            {
+                "id": 989,
+                "name": "Brocha\u2122",
+                "slug": "brocha",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/block-patchwork\/brocha"
+            },
+            {
+                "id": 991,
+                "name": "Brocha\u2122",
+                "slug": "brocha-contemporary",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/contemporary\/brocha-contemporary"
+            },
+            {
+                "id": 992,
+                "name": "Brocha\u2122",
+                "slug": "brocha-horizontal",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/horizontal\/brocha-horizontal"
+            }
+        ],
+        "tags": [{
+            "id": 988,
+            "name": "Brocha",
+            "slug": "brocha",
+            "link": "https:\/\/colouranddesign.com\/product-tag\/brocha"
+        }],
+        "attributes": [],
+        "variations": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "quantity_limit": 99,
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add &ldquo;Brocha\u2122&rdquo; to your cart",
+            "url": "?add-to-cart=18202"
+        }
+    },
+    {
+        "id": 18201,
+        "name": "Brocha\u2122",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https:\/\/colouranddesign.com\/wallcovering\/colour\/white\/brocha-cd2-bro-08",
+        "sku": "CD2-BRO-08",
+        "short_description": "",
+        "description": "",
+        "on_sale": false,
+        "prices": {
+            "price": "0",
+            "regular_price": "0",
+            "sale_price": "0",
+            "price_range": null,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;<\/span>0.00<\/span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [{
+                "id": 18180,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_08b.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_08b-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_08b.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_08b-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_08b-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_08b-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_08b-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_08b",
+                "alt": ""
+            },
+            {
+                "id": 18163,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_08.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_08-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_08.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_08-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_08-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_08-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_08-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_08",
+                "alt": ""
+            }
+        ],
+        "categories": [{
+                "id": 993,
+                "name": "Brocha\u2122",
+                "slug": "brocha-painterly-finish",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/painterly-finish\/brocha-painterly-finish"
+            },
+            {
+                "id": 260,
+                "name": "White",
+                "slug": "white",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/colour\/white"
+            },
+            {
+                "id": 989,
+                "name": "Brocha\u2122",
+                "slug": "brocha",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/block-patchwork\/brocha"
+            },
+            {
+                "id": 991,
+                "name": "Brocha\u2122",
+                "slug": "brocha-contemporary",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/contemporary\/brocha-contemporary"
+            },
+            {
+                "id": 992,
+                "name": "Brocha\u2122",
+                "slug": "brocha-horizontal",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/horizontal\/brocha-horizontal"
+            }
+        ],
+        "tags": [{
+            "id": 988,
+            "name": "Brocha",
+            "slug": "brocha",
+            "link": "https:\/\/colouranddesign.com\/product-tag\/brocha"
+        }],
+        "attributes": [],
+        "variations": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "quantity_limit": 99,
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add &ldquo;Brocha\u2122&rdquo; to your cart",
+            "url": "?add-to-cart=18201"
+        }
+    },
+    {
+        "id": 18200,
+        "name": "Brocha\u2122",
+        "parent": 0,
+        "type": "simple",
+        "variation": "",
+        "permalink": "https:\/\/colouranddesign.com\/wallcovering\/colour\/blue\/brocha-cd2-bro-07",
+        "sku": "CD2-BRO-07",
+        "short_description": "",
+        "description": "",
+        "on_sale": false,
+        "prices": {
+            "price": "0",
+            "regular_price": "0",
+            "sale_price": "0",
+            "price_range": null,
+            "currency_code": "USD",
+            "currency_symbol": "$",
+            "currency_minor_unit": 2,
+            "currency_decimal_separator": ".",
+            "currency_thousand_separator": ",",
+            "currency_prefix": "$",
+            "currency_suffix": ""
+        },
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#036;<\/span>0.00<\/span>",
+        "average_rating": "0",
+        "review_count": 0,
+        "images": [{
+                "id": 18179,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_07b.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_07b-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_07b.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_07b-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_07b-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_07b-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_07b-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_07b",
+                "alt": ""
+            },
+            {
+                "id": 18162,
+                "src": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_07.jpg",
+                "thumbnail": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_07-220x180.jpg",
+                "srcset": "https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_07.jpg 1000w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_07-600x420.jpg 600w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_07-220x154.jpg 220w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_07-768x538.jpg 768w, https:\/\/colouranddesign.com\/assets\/uploads\/cd2-bro_07-900x630.jpg 900w",
+                "sizes": "(max-width: 1000px) 100vw, 1000px",
+                "name": "cd2-bro_07",
+                "alt": ""
+            }
+        ],
+        "categories": [{
+                "id": 993,
+                "name": "Brocha\u2122",
+                "slug": "brocha-painterly-finish",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/painterly-finish\/brocha-painterly-finish"
+            },
+            {
+                "id": 249,
+                "name": "Blue",
+                "slug": "blue",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/colour\/blue"
+            },
+            {
+                "id": 989,
+                "name": "Brocha\u2122",
+                "slug": "brocha",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/block-patchwork\/brocha"
+            },
+            {
+                "id": 991,
+                "name": "Brocha\u2122",
+                "slug": "brocha-contemporary",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/contemporary\/brocha-contemporary"
+            },
+            {
+                "id": 992,
+                "name": "Brocha\u2122",
+                "slug": "brocha-horizontal",
+                "link": "https:\/\/colouranddesign.com\/wallcoverings\/design\/horizontal\/brocha-horizontal"
+            }
+        ],
+        "tags": [{
+            "id": 988,
+            "name": "Brocha",
+            "slug": "brocha",
+            "link": "https:\/\/colouranddesign.com\/product-tag\/brocha"
+        }],
+        "attributes": [],
+        "variations": [],
+        "has_options": false,
+        "is_purchasable": true,
+        "is_in_stock": true,
+        "is_on_backorder": false,
+        "low_stock_remaining": null,
+        "sold_individually": false,
+        "quantity_limit": 99,
+        "add_to_cart": {
+            "text": "Add to cart",
+            "description": "Add &ldquo;Brocha\u2122&rdquo; to your cart",
+            "url": "?add-to-cart=18200"
+        }
+    }
+]
