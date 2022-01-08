@@ -30,7 +30,7 @@ class ColorandDesignSpider(Spider):
     name = "colordesign"
     allowed_domains = ["colouranddesign.com"]
     start_urls = [
-        "https://colouranddesign.com/wp-json/wc/store/products/tags",
+        "https://colouranddesign.com/wallcoverings",
     ]
 
     custom_settings = {"SPLITVARIANTS_ENABLED": True, "FEED_EXPORT_ENCODING" : 'utf-8'}
@@ -86,7 +86,7 @@ class ColorandDesignSpider(Spider):
                     specs[d[0]] = d[1]
                 else:
                     specs['description'] = d
-            file_data = response.xpath('//div[@id="tab-document_tab"]//a/@href').getall()
+            file_data = [urljoin(base='https://colouranddesign.com',url=i) for i in response.xpath('//div[@id="tab-document_tab"]//a/@href').getall()]
 
         
         yield{
