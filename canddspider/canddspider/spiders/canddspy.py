@@ -1,16 +1,15 @@
-#NOTE: This spider is created WithOut Using ItemLoader
+#NOTE: This spider is created Using ItemLoader
+
 
 import scrapy
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 from urllib.parse import urljoin
+from canddspider.items import Product
 
-class ColoranddesignspySpider(CrawlSpider):
-    name = 'coloranddesignspy'
+class CanddspySpider(CrawlSpider):
+    name = 'canddspy'
     allowed_domains = ['colouranddesign.com']
-    # start_urls = ['https://colouranddesign.com/wp-json/wc/store/products']
-
-
     user_agent = 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Mobile Safari/537.36'
 
     def start_requests(self):
@@ -29,6 +28,7 @@ class ColoranddesignspySpider(CrawlSpider):
     )
 
     def parse_item(self, response):
+        item = Product()
 
         name = response.xpath('//h1[@class="product_title entry-title"]/text()').get()
         sku = response.xpath('//div[@class="sku"]/text()').get()
@@ -66,12 +66,11 @@ class ColoranddesignspySpider(CrawlSpider):
             # file_data = response.xpath('//div[@id="tab-document_tab"]//a/@href').getall()
             file_data = [urljoin(base='https://colouranddesign.com',url=i) for i in response.xpath('//div[@id="tab-document_tab"]//a/@href').getall()]
         
-        yield{
-            "name":  name,
-            "sku":  sku,
-            "colour":  colorName,
-            "specifications": specs,
-            "file_urls":  file_data,
-            "image_urls":  img_urls
-        }
+        item["name"] = name
+        item["sku"] = sku
+        item["colour"] = colorName
+        item["specifications"]=specs
+        item["file_urls"] = file_data
+        item["image_urls"] = img_urls       
 
+        yield item 
