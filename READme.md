@@ -2,7 +2,7 @@
 
 ### Meta-Data
 
-* Library(s) : Scrapy🧹
+* Library(s) : Scrapy🧹,urllib
 * WebSite : https://colouranddesign.com/ 🌐
 * Data : All the product listed on the site mentioned above.
 
